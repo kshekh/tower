@@ -7,7 +7,7 @@
     <!-- Viewport -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/svg+xml" href="assets/dist/img/favicon.svg">
-    <title>Pixelads</title>
+    <title>Tower</title>
 
     <!-- Google Font Fonts -->
     <link href="../node_modules/typeface-raleway/index.css" rel="stylesheet">
@@ -16,6 +16,8 @@
      <!-- Tailwind CSS -->
     <link href="assets/dist/css/style.css" rel="stylesheet">
 
+  
+
 </head>
 
 <body class="">
@@ -23,17 +25,265 @@
 
     <!-- whole page wrapper -->
     <div class="overflow-hidden flex flex-col min-h-screen">
-       asdada
+      <header class="relative z-50 bg-white">
+        <nav class=" py-2 md:py-4 p-4 mt-4">
+          <div class="max-w-6xl px-32 mx-auto md:flex md:items-center">
+
+      
+            <div class="flex justify-between items-center">
+              <a href="#" class="font-bold text-xl text-indigo-600"><img src="assets/dist/img/logo.svg" alt=""></a>
+             
+            </div>
+      
+            <div class=" md:flex flex-col md:flex-row md:ml-auto mt-3 md:mt-0 items-center" id="navbar-collapse">
+
+              <a href="#" class="p-2 lg:px-4 md:mx-2 text-sm font-bold text-dark uppercase">Store</a>
+              <a href="#" class="p-2 lg:px-4 md:mx-2 text-sm font-bold text-dark uppercase">News</a>
+              <a href="#" class="p-2 lg:px-4 md:mx-2 text-sm font-bold text-dark uppercase">Contact</a>
+              <a href="#" class="p-2 lg:px-4 md:mx-2 text-sm font-bold text-dark uppercase">Contact</a>
+              <div class="flex flex-col gap-2 " x-data="{checked : true}">
+                <input class="sr-only" type="checkbox" id="activer" x-model="checked">
+                <label class="flex items-center gap-2 text-sm font-bold text-dark" for="activer">
+                  <span class="uppercase">En</span>
+                    <span aria-hidden="true" class="flex items-center w-8 h-5 ring-1 ring-dark rounded-full relative transition-all ease-in-out duration-300 pl-1 border border-dark" >
+                        <span class="relative transform z-10 block h-3 w-3 rounded-full bg-dark transition-all ease-in-out duration-300 translate-x-full" :class="checked ? 'translate-x-full' : 'translate-x-0'"></span>
+
+                    </span>
+<span class="uppercase">Nl</span>
+                </label>
+            </div>
+            <a href="#" class="p-2 lg:px-4 md:mx-2 text-sm font-bold text-dark uppercase inline-flex gap-2">
+              <svg class="w-4" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M3.83045 7.81197C5.27045 10.642 7.59045 12.962 10.4204 14.402L12.6204 12.202C12.9004 11.922 13.2904 11.842 13.6404 11.952C14.7604 12.322 15.9604 12.522 17.2104 12.522C17.4757 12.522 17.73 12.6273 17.9176 12.8149C18.1051 13.0024 18.2104 13.2568 18.2104 13.522V17.022C18.2104 17.2872 18.1051 17.5415 17.9176 17.7291C17.73 17.9166 17.4757 18.022 17.2104 18.022C12.7018 18.022 8.37775 16.2309 5.18963 13.0428C2.00152 9.85467 0.210449 5.53065 0.210449 1.02197C0.210449 0.756756 0.315806 0.502402 0.503342 0.314866C0.690879 0.127329 0.945233 0.0219727 1.21045 0.0219727H4.71045C4.97567 0.0219727 5.23002 0.127329 5.41756 0.314866C5.60509 0.502402 5.71045 0.756756 5.71045 1.02197C5.71045 2.27197 5.91045 3.47197 6.28045 4.59197C6.39045 4.94197 6.31045 5.33197 6.03045 5.61197L3.83045 7.81197Z" fill="currentColor"/>
+                </svg>
+                
+              <span>(+31) 0172 700 568</span> </a>
+
+        
+           
+
+          
+            </div>
+          </div>
+        </nav>
+
+        <div class="max-w-7xl mx-auto">
+       
+        
+         
+        </div>
+
+      </header>
+      <div class="flex items-center justify-center h-screen">
+        <h1 class="sr-only">tower</h1>
+      
+    
+        <div class="relative max-w-full cursor-pointer">
+          <h2 class="text-6.5xl font-bold pb-4 ">News</h2>
+          <img class="w-full" src="assets/dist/img/wenner-img.png">
+          <div class="absolute text-lg -mt-16 text-white px-4 top-2/4">
+            <div class="w-md px-4">
+              <p class="uppercase text-base font-bold">26 november 2021 published in culture</p>
+              <h3 class="font-bold text-4xl ">Maecenas morbi pulvinar in sed nunc enim vitae.</h3>
+              <p class="text-lg font-normal py-4 text-white/90">Sed aliquam duis id a. Urna eleifend risus, est mi eget nulla gravida. Dignissim id turpis accumsan porttitor vitae, nibh egestas ac accumsan.</p>
+              <button type="button" class="bg-primary/80 py-3 px-10 uppercase text-sm font-bold flex gap-2"><span>read more</span><span class="mt-1.5"><img src="assets/dist/img/arrow.svg" alt=""></span></button>
+            </div>
+           
+          </div>
+        </div>
+      </div>
+
+  
         <main class="flex flex-1 flex-col ">
- asdsadad
+       
+         <!-- card-1 -->
+          <section class="text-gray-600 body-font overflow-hidden">
+            <div class="container px-5  pt-16 mx-auto">
+              <div class="lg:w-4/5 mx-auto flex flex-wrap">
+                <img alt="ecommerce" class=" lg:w-2/3 w-full lg:h-xs h-64 object-cover object-center rounded " src="assets/dist/img/card-1.png">
+                <div class="lg:w-1/3 w-full lg:pl-10 lg:py-6 mt-6 lg:mt-0">
+                  <h3 class="text-sm font-bold uppercase">26 november 2021 published in cultureE</h3>
+                  <h1 class="text-gray-900 text-3xl title-font font-medium mb-1 sr-only">The Catcher in the Rye</h1>
+                  <h2 class="font-bold text-4xl text-dark ">Vitae ultricies nam quisque malesuada viverra sit.</h2>
+              
+                  <p class=" leading-8 py-4 ">Fam locavore kickstarter distillery. Mixtape chillwave tumeric sriracha taximy chia microdosing tilde DIY. XOXO fam indxgo juiceramps cornhole raw denim forage brooklyn. Everyday carry.</p>
+               
+                  <div class="flex flex-1 w-full">
+                  <button type="button" class="py-4 uppercase bg-primary w-full text-sm font-bold text-white">read more</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <!-- card-2 -->
+
+
+
+
+
+
+
+
+
+          
+          
+          <section class="text-gray-600 body-font overflow-hidden">
+            <div class="container px-5 pt-16 mx-auto">
+              <div class="lg:w-4/5 mx-auto flex flex-wrap">
+     
+                <div class="lg:w-1/3 w-full lg:pl-10 lg:py-6 mt-6 lg:mt-0 ">
+                  <h3 class="text-sm font-bold uppercase">26 november 2021 published in cultureE</h3>
+                  <h1 class="text-gray-900 text-3xl title-font font-medium mb-1 sr-only">The Catcher in the Rye</h1>
+                  <h2 class="font-bold text-4xl text-dark ">Vitae ultricies nam quisque malesuada viverra sit.</h2>
+              
+                  <p class=" leading-8 py-4 ">Fam locavore kickstarter distillery. Mixtape chillwave tumeric sriracha taximy chia microdosing tilde DIY. XOXO fam indxgo juiceramps cornhole raw denim forage. </p>
+               
+                  <div class="flex flex-1 w-full">
+                  <button type="button" class="py-4 uppercase bg-primary w-full text-sm font-bold text-white">read more</button>
+                  </div>
+                </div>
+          <div class="lg:w-2/3 w-full lg:h-xs h-64">      <img alt="ecommerce" class=" object-cover object-center rounded w-full h-full" src="assets/dist/img/card-2.png"></div>
+              </div>
+            </div>
+          </section>
+           <!-- card-3 -->
+           <section class="text-gray-600 body-font overflow-hidden">
+            <div class="container px-5  pt-16 mx-auto">
+              <div class="lg:w-4/5 mx-auto flex flex-wrap">
+                <img alt="ecommerce" class=" lg:w-2/3 w-full lg:h-xs h-64 object-cover object-center rounded " src="assets/dist/img/card-3.png">
+                <div class="lg:w-1/3 w-full lg:pl-10 lg:py-6 mt-6 lg:mt-0">
+                  <h3 class="text-sm font-bold uppercase">26 november 2021 published in cultureE</h3>
+                  <h1 class="text-gray-900 text-3xl title-font font-medium mb-1 sr-only">The Catcher in the Rye</h1>
+                  <h2 class="font-bold text-4xl text-dark ">Vitae ultricies nam quisque malesuada viverra sit.</h2>
+              
+                  <p class=" leading-8 py-4 ">Fam locavore kickstarter distillery. Mixtape chillwave tumeric sriracha taximy chia microdosing tilde DIY. XOXO fam indxgo juiceramps cornhole raw denim forage brooklyn. Everyday carry.</p>
+               
+                  <div class="flex flex-1 w-full">
+                  <button type="button" class="py-4 uppercase bg-primary w-full text-sm font-bold text-white">read more</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <!-- card-4 -->
+           
+          
+          <section class="text-gray-600 body-font overflow-hidden">
+            <div class="container px-5 pt-16 mx-auto">
+              <div class="lg:w-4/5 mx-auto flex flex-wrap">
+     
+                <div class="lg:w-1/3 w-full lg:pl-10 lg:py-6 mt-6 lg:mt-0 ">
+                  <h3 class="text-sm font-bold uppercase">26 november 2021 published in cultureE</h3>
+                  <h1 class="text-gray-900 text-3xl title-font font-medium mb-1 sr-only">The Catcher in the Rye</h1>
+                  <h2 class="font-bold text-4xl text-dark ">Vitae ultricies nam quisque malesuada viverra sit.</h2>
+              
+                  <p class=" leading-8 py-4 ">Fam locavore kickstarter distillery. Mixtape chillwave tumeric sriracha taximy chia microdosing tilde DIY. XOXO fam indxgo juiceramps cornhole raw denim forage. </p>
+               
+                  <div class="flex flex-1 w-full">
+                  <button type="button" class="py-4 uppercase bg-primary w-full text-sm font-bold text-white">read more</button>
+                  </div>
+                </div>
+          <div class="lg:w-2/3 w-full lg:h-xs h-64">      <img alt="ecommerce" class=" object-cover object-center rounded w-full h-full" src="assets/dist/img/card-4.png"></div>
+              </div>
+            </div>
+          </section>
+
+
 
         </main>
 
 
         <!-- Footer -->
-        <footer class="bg-neutral-900">
+        <footer class="bg-dark">
             <div class="max-w-screen-wrap px-3 warp:px-5 mx-auto w-full">
-                dsfdsfds
+            
+
+<section class="text-gray-600 body-font">
+  <div class="container px-5 py-24 mx-auto">
+
+    <div class="flex flex-wrap -m-4">
+      <div class="p-4 lg:w-1/4 sm:w-1/2 w-full">
+        <div><img src="assets/dist/img/logo-white.svg" alt=""></div>
+      </div>
+
+  <div class="p-4 lg:w-1/4 sm:w-1/2 w-full">
+        <h2 class="font-medium title-font tracking-widest text-white mb-4 text-md text-center sm:text-left uppercase">company details</h2>
+        <nav class="flex flex-col sm:items-start sm:text-left text-center items-center -mb-1 space-y-2.5">
+          <a>
+            <span class="text-white w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center font-bold">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12 15C12.81 15 13.5 14.7 14.11 14.11C14.7 13.5 15 12.81 15 12C15 11.19 14.7 10.5 14.11 9.89C13.5 9.3 12.81 9 12 9C11.19 9 10.5 9.3 9.89 9.89C9.3 10.5 9 11.19 9 12C9 12.81 9.3 13.5 9.89 14.11C10.5 14.7 11.19 15 12 15ZM12 2C14.75 2 17.1 3 19.05 4.95C21 6.9 22 9.25 22 12V13.45C22 14.45 21.65 15.3 21 16C20.3 16.67 19.5 17 18.5 17C17.3 17 16.31 16.5 15.56 15.5C14.56 16.5 13.38 17 12 17C10.63 17 9.45 16.5 8.46 15.54C7.5 14.55 7 13.38 7 12C7 10.63 7.5 9.45 8.46 8.46C9.45 7.5 10.63 7 12 7C13.38 7 14.55 7.5 15.54 8.46C16.5 9.45 17 10.63 17 12V13.45C17 13.86 17.16 14.22 17.46 14.53C17.76 14.84 18.11 15 18.5 15C18.92 15 19.27 14.84 19.57 14.53C19.87 14.22 20 13.86 20 13.45V12C20 9.81 19.23 7.93 17.65 6.35C16.07 4.77 14.19 4 12 4C9.81 4 7.93 4.77 6.35 6.35C4.77 7.93 4 9.81 4 12C4 14.19 4.77 16.07 6.35 17.65C7.93 19.23 9.81 20 12 20H17V22H12C9.25 22 6.9 21 4.95 19.05C3 17.1 2 14.75 2 12C2 9.25 3 6.9 4.95 4.95C6.9 3 9.25 2 12 2Z" fill="white"/>
+                </svg>
+                
+            
+
+            </span>hello@tower.com
+          </a>
+          <a>
+            <span class="text-white w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
+              <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M3.62 7.79C5.06 10.62 7.38 12.94 10.21 14.38L12.41 12.18C12.69 11.9 13.08 11.82 13.43 11.93C14.55 12.3 15.75 12.5 17 12.5C17.2652 12.5 17.5196 12.6054 17.7071 12.7929C17.8946 12.9804 18 13.2348 18 13.5V17C18 17.2652 17.8946 17.5196 17.7071 17.7071C17.5196 17.8946 17.2652 18 17 18C12.4913 18 8.1673 16.2089 4.97918 13.0208C1.79107 9.8327 0 5.50868 0 1C0 0.734784 0.105357 0.48043 0.292893 0.292893C0.48043 0.105357 0.734784 0 1 0H4.5C4.76522 0 5.01957 0.105357 5.20711 0.292893C5.39464 0.48043 5.5 0.734784 5.5 1C5.5 2.25 5.7 3.45 6.07 4.57C6.18 4.92 6.1 5.31 5.82 5.59L3.62 7.79Z" fill="white"/>
+                </svg>
+            </span>(+31) 0172 700 568
+          </a>
+          <a>
+            <span class="text-white w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
+              <svg width="14" height="20" viewBox="0 0 14 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M7 9.5C6.33696 9.5 5.70107 9.23661 5.23223 8.76777C4.76339 8.29893 4.5 7.66304 4.5 7C4.5 6.33696 4.76339 5.70107 5.23223 5.23223C5.70107 4.76339 6.33696 4.5 7 4.5C7.66304 4.5 8.29893 4.76339 8.76777 5.23223C9.23661 5.70107 9.5 6.33696 9.5 7C9.5 7.3283 9.43534 7.65339 9.3097 7.95671C9.18406 8.26002 8.99991 8.53562 8.76777 8.76777C8.53562 8.99991 8.26002 9.18406 7.95671 9.3097C7.65339 9.43534 7.3283 9.5 7 9.5V9.5ZM7 0C5.14348 0 3.36301 0.737498 2.05025 2.05025C0.737498 3.36301 0 5.14348 0 7C0 12.25 7 20 7 20C7 20 14 12.25 14 7C14 5.14348 13.2625 3.36301 11.9497 2.05025C10.637 0.737498 8.85652 0 7 0V0Z" fill="white"/>
+                </svg>
+                
+            </span>Herenhuis "Vaartzicht"
+            Wilhelminalaan 2
+            2405 ED Alphen aan den Rijn
+         
+        </nav>
+      </div>
+      <div class="p-4 lg:w-1/4 sm:w-1/2 w-full">
+        <h2 class="font-medium title-font tracking-widest text-white mb-4 text-sm text-center sm:text-left uppercase">Site links</h2>
+        <nav class="flex flex-col sm:items-start sm:text-left text-center items-center -mb-1 space-y-2.5">
+          <a>
+            <span class="tezt-white w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
+              
+            </span>Home
+          </a>
+          <a>
+            <span class="text-white  w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
+              
+            </span>Store
+          </a>
+          <a>
+            <span class="text-white  w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
+              
+            </span>News
+          </a>
+          <a>
+            <span class=" text-white w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
+             
+            </span>Contact
+          </a>
+          <a>
+            <span class="text-white  w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
+            
+            </span>Fifth Link
+          </a>
+        </nav>
+      </div>
+      <div class="p-4 lg:w-1/4 sm:w-1/2 w-full">
+        <h2 class="font-medium title-font tracking-widest text-white mb-4 text-sm text-center sm:text-left uppercase">Social</h2>
+        <nav class="flex flex-col sm:items-start sm:text-left text-center items-center -mb-1 space-y-2.5">
+          <a>
+            <span class="tezt-white w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
+              
+            </span>LinkedIn
+          </a></nav>
+      </div>
+     
+    </div>
+
+  </div>
+</section>
+GitHub
+               
             </div>
         </footer>
 
@@ -45,7 +295,7 @@
 
 
     <script src="../node_modules/alpinejs/dist/alpine.js"></script>
-    <script src="../node_modules/swiper/swiper-bundle.min.js"></script>
+   
 
 
 
